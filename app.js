@@ -14,7 +14,7 @@ config({ path: "./config.env" });
 
 app.use(
   cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://wise-job.netlify.app',
     credentials: true,
   })
 );
